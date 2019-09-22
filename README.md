@@ -3,7 +3,7 @@ Set SVG as a featured image in Wordpress
 
 **Description:**
 
-This plugin helps Wordpress bloggers to et SVG as the featured image which can be shared on Facebook or Twitter with the preview image in the post.
+This plugin helps Wordpress bloggers to set SVG as the featured image automatically which can be shared on Facebook or Twitter with the preview/thumbnail image in the post.
 
 ## Requirement:
 
