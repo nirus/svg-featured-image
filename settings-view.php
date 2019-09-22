@@ -36,7 +36,7 @@
                 <th scope="row">Social networks</th>
                 <td class="svg2png-td">
                     <div class="chkbox"> 
-                        <img src="<?php echo plugins_url('svg2png/assets/twitter_icon.svg'); ?>" alt="">
+                        <img src="<?php echo plugins_url('assets/twitter_icon.svg', __FILE__); ?>" alt="">
                         <div class="chk-opt">
                             <span>&nbsp;Twitter&nbsp;</span>
                             <input 
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="chkbox"> 
-                    <img src="<?php echo plugins_url('svg2png/assets/fb_icon.svg'); ?>" alt="">
+                    <img src="<?php echo plugins_url('assets/fb_icon.svg', __FILE__); ?>" alt="">
                         <div class="chk-opt">
                             <span>&nbsp;Facebook&nbsp;</span>
                             <input 

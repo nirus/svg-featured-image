@@ -56,7 +56,7 @@ function create_folder($option) {
     $upload_dir = $upload['basedir'];
     $upload_dir = $upload_dir . '/' . $option;
     if (! is_dir($upload_dir)) {
-       mkdir( $upload_dir, 0700 );
+       mkdir( $upload_dir, 0775 );
     }
 
     return $option;
