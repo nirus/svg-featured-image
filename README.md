@@ -1,5 +1,5 @@
-## SVG featured Image
-Set SVG as a featured image in wordpress
+## SVG featured Image (Wordpress Plugin)
+Set SVG as a featured image in Wordpress
 
 **Description:**
 
