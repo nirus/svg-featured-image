@@ -10,4 +10,6 @@ This plugin helps Wordpress bloggers to et SVG as the featured image which can b
 - PHP latest version
 - PHP ImageMagick Plugin enabled
 
+### PHP ImageMagick shoould be enabled or installed before the usage of this plugin.
+
 ***Support is much appreciated.***
