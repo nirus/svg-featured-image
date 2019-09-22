@@ -8,6 +8,6 @@ This plugin helps Wordpress bloggers to et SVG as the featured image which can b
 ## Requirement:
 
 - PHP latest version
-- PHP ImageMagic Plugin enabled
+- PHP ImageMagick Plugin enabled
 
 ***Support is much appreciated.***
