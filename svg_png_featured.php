@@ -5,7 +5,7 @@
     */
     /*
         Plugin Name: SVG Featured Image
-        Plugin URI: http://wordpress.org/plugins/hello-dolly/
+        Plugin URI: https://github.com/nirus/svg-featured-image
         Description: Automatic converter for featured images on wordpress that uses SVG image format. This plugin automatically creates an equivalent PNG format & adds to the meta tags in header.
         Author: Niranjan Kumar A.K.A NiRUS
         Version: 0.1
