@@ -2,15 +2,15 @@
     include plugin_dir_path(__FILE__) . 'generate.php';
     
     if (extension_loaded('imagick')){ 
-        add_action('save_post', 'refresh_feature_image');
-        add_action( 'wp_head', 'add_meta_tags' , 1 );
+        add_action('save_post', 'sfi_nirus_refresh_feature_image');
+        add_action( 'wp_head', 'sfi_nirus_add_meta_tags' , 1 );
     }
 
-    function add_meta_tags($post_id){
+    function sfi_nirus_add_meta_tags($post_id){
         return load_template(dirname( __FILE__ ) . '/meta-tags.php', true);
     }
 
-    function refresh_feature_image($post_id) {
+    function sfi_nirus_refresh_feature_image($post_id) {
 
         if(empty(get_option('SFI_NIRUS_PNG_FOLDER_PATH'))){
             return ;
