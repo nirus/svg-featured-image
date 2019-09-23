@@ -10,3 +10,4 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
 This plugin helps Wordpress bloggers to use SVG as the featured image which can be shared on Facebook or Twitter with the SVG preview image in the post. THis plugin uses PHP ImageMagick to create thumbnails for social shares.
+We recommend Safe SVG plugin to enable SVG/XML mime type on your Wordpress site.

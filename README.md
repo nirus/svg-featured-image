@@ -9,7 +9,8 @@ This plugin helps Wordpress bloggers to set SVG as the featured image which auto
 
 - PHP latest version
 - PHP ImageMagick Plugin enabled
+- Recommended : **Safe SVG plugin** ***(To enable svg/xml mime type on Wordpress)***
 
 > PHP ImageMagick should be enabled or installed before the usage of this plugin.
 
-***Support is much appreciated.***
+***Support & feedback is much appreciated.***
