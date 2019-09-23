@@ -34,7 +34,7 @@
             
             <tr valign="top">
                 <th scope="row">Social networks</th>
-                <td class="svg2png-td">
+                <td class="sfi-nirus-svg2png-td">
                     <div class="chkbox"> 
                         <img src="<?php echo plugins_url('assets/twitter_icon.svg', __FILE__); ?>" alt="">
                         <div class="chk-opt">
