@@ -1,5 +1,6 @@
 ## SVG featured Image (Wordpress Plugin)
-Set SVG as a featured image in Wordpress for social sharing 
+
+Use featured SVG image of a post or page as thumbnails to your posts & shares on social network.
 
 **Description:**
 Currently social networks have limitations on their thumbnail image formats. SVG images are not allowed as thumbnail.
