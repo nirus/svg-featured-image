@@ -20,8 +20,6 @@ include plugin_dir_path(__FILE__) . 'post-watch.php';
 add_action('admin_menu', 'sfi_nirus_plug_menu');
 
 function sfi_nirus_plug_menu() {
-
-    global $icon;
     add_menu_page(
         'SVG to PNG featured image', 
         'SVG &#8594; PNG', 
