@@ -1,7 +1,7 @@
 === SVG Featured Image ===
 Contributors: n1rus
 Donate link: http://nirus.io
-Tags: plugin, opengraph, facebook, twitter, featuredimage, svg
+Tags: plugin, opengraph, facebook, twitter, featuredimage, svg, thumbnail, generator
 Requires at least: 5.1
 Tested up to: 5.2
 Requires PHP: 7.2
