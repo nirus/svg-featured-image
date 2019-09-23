@@ -3,8 +3,8 @@
     <h3><i>(Featured Image generator for Social Networks)</i></h3>
     <hr>
     <form method="post" action="options.php">
-        <?php settings_fields('svg-png-settings-group'); ?>
-        <?php do_settings_sections('svg-png-settings-group'); ?>
+        <?php settings_fields('sfi-nirus-settings-group'); ?>
+        <?php do_settings_sections('sfi-nirus-settings-group'); ?>
 
         <table class="form-table">        
 
@@ -14,8 +14,8 @@
                     <span>uploads&nbsp;/&nbsp;</span>
                     <input 
                         type="text" 
-                        name="SVG_PNG_FOLDER_PATH" 
-                        value="<?php echo esc_attr(get_option('SVG_PNG_FOLDER_PATH')); ?>" 
+                        name="SFI_NIRUS_PNG_FOLDER_PATH" 
+                        value="<?php echo esc_attr(get_option('SFI_NIRUS_PNG_FOLDER_PATH')); ?>" 
                         placeholder="PNG Folder"
                         required
                     />
@@ -41,10 +41,10 @@
                             <span>&nbsp;Twitter&nbsp;</span>
                             <input 
                                 type="checkbox" 
-                                name="SVG_PNG_TWT_OPTION"
-                                id="SVG_PNG_TWT_OPTION"
+                                name="SFI_NIRUS_TWT_OPTION"
+                                id="SFI_NIRUS_TWT_OPTION"
                                 value="1"
-                                <?php checked( '1', get_option( 'SVG_PNG_TWT_OPTION' ) ); ?>
+                                <?php checked( '1', get_option( 'SFI_NIRUS_TWT_OPTION' ) ); ?>
                             />
                         </div>
                     </div>
@@ -55,10 +55,10 @@
                             <span>&nbsp;Facebook&nbsp;</span>
                             <input 
                                 type="checkbox" 
-                                name="SVG_PNG_FB_OPTION"
-                                id="SVG_PNG_FB_OPTION"
+                                name="SFI_NIRUS_FB_OPTION"
+                                id="SFI_NIRUS_FB_OPTION"
                                 value="1"
-                                <?php checked( '1', get_option( 'SVG_PNG_FB_OPTION' ) ); ?>
+                                <?php checked( '1', get_option( 'SFI_NIRUS_FB_OPTION' ) ); ?>
                             />
                         </div>
                     </div>

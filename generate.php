@@ -1,5 +1,5 @@
 <?php
-    function feature_image_png($image, $path_to_write){        
+    function sfi_nirus_png_create($image, $path_to_write){        
         $im = new Imagick();
         $svg = file_get_contents($image);
 

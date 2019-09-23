@@ -12,7 +12,7 @@
 
     function refresh_feature_image($post_id) {
 
-        if(empty(get_option('SVG_PNG_FOLDER_PATH'))){
+        if(empty(get_option('SFI_NIRUS_PNG_FOLDER_PATH'))){
             return ;
         }
 
@@ -28,11 +28,11 @@
             }
             
             $file_hash = hash_file('sha1', $url);
-            $stored_hash = get_post_meta($post_id, 'svg-png-image-hash', false);
+            $stored_hash = get_post_meta($post_id, 'sfi-nirus-image-hash', false);
             
             if(empty($stored_hash) || ($stored_hash[0] != $file_hash)){
 
-                update_post_meta($post_id, 'svg-png-image-hash', $file_hash);
+                update_post_meta($post_id, 'sfi-nirus-image-hash', $file_hash);
     
                 $upload = wp_upload_dir();
 
@@ -40,12 +40,12 @@
     
                 $filename = explode('.', $file->getFilename())[0];
     
-                $fullpath = $upload_dir . '/' . get_option('SVG_PNG_FOLDER_PATH') . '/' . $filename . '.png';
-                $basepath = $upload['baseurl'] . '/' . get_option('SVG_PNG_FOLDER_PATH') . '/' . $filename . '.png';
+                $fullpath = $upload_dir . '/' . get_option('SFI_NIRUS_PNG_FOLDER_PATH') . '/' . $filename . '.png';
+                $basepath = $upload['baseurl'] . '/' . get_option('SFI_NIRUS_PNG_FOLDER_PATH') . '/' . $filename . '.png';
     
-                feature_image_png($url, $fullpath);
+                sfi_nirus_png_create($url, $fullpath);
 
-                update_post_meta($post_id, 'svg-image-featured-png', $basepath);
+                update_post_meta($post_id, 'sfi-nirus-featured-png', $basepath);
 
             }
         }
