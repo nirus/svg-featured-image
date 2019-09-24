@@ -2,7 +2,7 @@
     include plugin_dir_path(__FILE__) . 'generate.php';
     
     if (extension_loaded('imagick')){ 
-        add_action('save_post', 'sfi_nirus_refresh_feature_image');
+        add_action('save_post', 'sfi_nirus_refresh_feature_image', 10);
         add_action( 'wp_head', 'sfi_nirus_add_meta_tags' , 1 );
     }
 

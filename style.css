@@ -14,3 +14,9 @@ td.sfi-nirus-svg2png-td {
 .sfi-nirus-svg2png-td .chkbox .chk-opt {
     margin: auto 0px;
 }
+
+.sfi-nirus-message{
+    margin: 12px auto;
+    font-weight: 400;
+    font-size: 0.9em;;
+}

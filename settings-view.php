@@ -80,5 +80,18 @@
             echo ' <font size="4" color="green">Available</font>. Perfect!';
         }
     ?>
+    
     </h3>
+
+    <h4>
+    Safe SVG plugin : 
+    <?php
+        if (class_exists( 'safe_svg' )){ 
+            echo ' <font size="2" color="green">Available</font>. Perfect!';    
+        } else {
+            echo '  <font size="2" color="#b35050">Not Installed</font> (<font size="2" color="green"><i> Recommended Install <a href="https://wordpress.org/plugins/safe-svg/" target="_blank">Safe SVG</a></i></font> )';
+            echo '<div class="sfi-nirus-message">** This is not mandatory. You can install plugin of your choice that enables SVG support.</div>';
+        }
+    ?>
+    </h4>
 </div>
