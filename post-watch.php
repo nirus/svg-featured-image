@@ -2,7 +2,7 @@
     include plugin_dir_path(__FILE__) . 'generate.php';
     
     if (extension_loaded('imagick')){ 
-        add_action('save_post', 'sfi_nirus_refresh_feature_image', 10);
+        add_action('save_post', 'sfi_nirus_refresh_feature_image', 10, 3);
         add_action( 'wp_head', 'sfi_nirus_add_meta_tags' , 1 );
     }
 
@@ -43,9 +43,9 @@
                 $fullpath = $upload_dir . '/' . get_option('SFI_NIRUS_PNG_FOLDER_PATH') . '/' . $filename . '.png';
                 $basepath = $upload['baseurl'] . '/' . get_option('SFI_NIRUS_PNG_FOLDER_PATH') . '/' . $filename . '.png';
     
-                sfi_nirus_png_create($url, $fullpath);
-
                 update_post_meta($post_id, 'sfi-nirus-featured-png', $basepath);
+                
+                sfi_nirus_png_create($url, $fullpath);
 
             }
         }

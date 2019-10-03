@@ -1,5 +1,7 @@
 <?php
 
+    sfi_nirus_refresh_feature_image($post->ID);
+
     $featured_img = get_post_meta($post->ID, 'sfi-nirus-featured-png', false);
     if( empty($featured_img) ){
         return;
